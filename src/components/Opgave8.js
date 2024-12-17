@@ -14,6 +14,7 @@ function Opgave8() {
 	const patterns = [
 		'AIEO AIEO AIEO IAO',
 		'A A A I EE A A A I EE A A U',
+		'A A A I EE',
 		'OEE UI O E AE A OI EE AE',
 		'O I I O I I OU EE EE',
 		'O OI I OA AY IE I'
