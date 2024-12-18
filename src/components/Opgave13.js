@@ -5,8 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
 
 function Opgave13() {
-	const ciphertext = 'RSHFZCNNZAAE';
-	const keyLength = 4;
+	const ciphertext = 'KTLSLIANRAE';
+	// const ciphertext = 'KTLSLIANRAE';
+
+	const keyLength = 3;
 
 	const getPermutations = (max) => {
 		const numbers = Array.from({ length: max }, (_, i) => i + 1);  // Create array [1, 2, ..., max]
@@ -99,7 +101,7 @@ function Opgave13() {
 			});
 		}
 
-		console.log(solutions.length);
+		// console.log(solutions.length);
 		return solutions;
 	};
 

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import TextAnalyzer from './components/TextAnalyzer.js';
 import Doorloper from './components/Doorloper.js';
+import Junior8 from './components/Junior8.js';
 import Opgave8 from './components/Opgave8.js';
 import Opgave13 from './components/Opgave13.js';
 import Opgave25 from './components/Opgave25.js';
@@ -33,6 +34,12 @@ function App() {
             </Tab>
             <Tab eventKey="opgave25" title="Opgave 25">
               <Opgave25 />
+            </Tab>
+            <Tab eventKey="RandomStuff" title="RandomStuff">
+              <RandomStuff />
+            </Tab>
+            <Tab eventKey="junior8" title="Junior 8">
+              <Junior8 />
             </Tab>
           </Tabs>
         </Col>
